@@ -14,6 +14,7 @@ import theme from '../src/global/styles/theme';
 import { View } from "react-native";
 import { Dashboard } from "@/src/screens/Dashboard";
 import { Register } from "@/src/screens/Register";
+import { CategorySelect } from "@/src/screens/CategorySelect";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -62,6 +63,7 @@ export default function Index() {
       <ThemeProvider theme={theme}>
         {/* <Dashboard /> */}
         <Register />
+        {/* <CategorySelect /> */}
       </ThemeProvider>
     </View>
   );
